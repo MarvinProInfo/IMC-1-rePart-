@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCUL DE L'IMC</title>
+    <link rel="stylesheet" href="../IMC/styles.css">
+</head>
+<body>
+    <h1>CALCULE DE L'INDICE DE MASSE CORPOREL</h1>
+
+    <h2>Insérer votre masse en KG et votre taille en m dans les deux champs de texte suivants.</h2>
+
+    <div class="masse">
+        <label for="kg">Masse (en Kg) :</label>
+        <input type="text" class="Kg" placeholder="0...">
+    </div>
+    <br>
+
+    <div class="taille">
+        <label for="metre">Taille (en m) :</label>
+        <input type="text" class="metre" placeholder="0...">
+    </div>
+    
+<br>
+    <div class="boutons">
+        <button class="effacer">Effacer</button>
+        <button class="Calculer" title="appuyer sur le boutton pour calculer">Calculer</button>
+    </div>
+    <div class="Deduction">
+        <p class="Resultat"></p><p class="Conclusion"></p>
+    </div>
+    <script src="../IMC/main.js"></script>
+</body>
+</html>
